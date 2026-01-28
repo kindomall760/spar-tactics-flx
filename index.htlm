@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Spar Tactics | Stats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-white font-sans">
+    <nav class="p-5 border-b border-zinc-800 flex justify-between items-center">
+        <h1 class="text-2xl font-black text-orange-500 shadow-orange-500/20 drop-shadow-md">SPAR TACTICS</h1>
+        <a href="login.html" class="bg-zinc-800 hover:bg-orange-600 px-4 py-2 rounded transition font-bold text-sm">ADMIN LOGIN</a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto mt-10 p-4">
+        <h2 class="text-xl font-bold mb-6 text-zinc-400 uppercase tracking-widest">Global Ranking 4vs4</h2>
+        <div class="bg-zinc-900 border border-zinc-800 rounded-lg overflow-hidden">
+            <table class="w-full text-left">
+                <thead class="bg-zinc-800/50 text-orange-400 text-xs uppercase">
+                    <tr>
+                        <th class="p-4">Rank</th>
+                        <th class="p-4">Jugador</th>
+                        <th class="p-4 text-center">Elo</th>
+                        <th class="p-4 text-center">W/L</th>
+                    </tr>
+                </thead>
+                <tbody id="ranking-data">
+                    <tr class="border-b border-zinc-800 hover:bg-zinc-800/30">
+                        <td class="p-4 text-orange-500 font-bold">#1</td>
+                        <td class="p-4 font-semibold">Flex_Player</td>
+                        <td class="p-4 text-center font-mono">1500</td>
+                        <td class="p-4 text-center text-zinc-500">10 - 0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
